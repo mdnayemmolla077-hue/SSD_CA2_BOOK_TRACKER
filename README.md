@@ -19,46 +19,4 @@ Form validation and error handling (client-side and server-side)
 View individual book details
 Clean and user-friendly interface
 
-Installation
 
-This project is developed using the Laravel framework. Follow the steps below to install and run the application.
-
-1. Clone the repository
-git clone YOUR_GITHUB_REPO_LINK
-2. Navigate to the project folder
-cd book-tracker
-3. Install PHP dependencies
-composer install
-4. Install frontend dependencies
-npm install
-5. Create environment file
-
-.env files are not included for security reasons. Use the example file:
-
-cp .env.example .env
-6. Update environment variables
-
-Open the .env file and update:
-
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=book_tracker
-DB_USERNAME=root
-DB_PASSWORD=yourpassword
-7. Generate application key
-php artisan key:generate
-8. Create a database
-
-This project uses MySQL.
-Create a database named:
-
-book_tracker
-9. Run migrations
-php artisan migrate
-10. Run the development server
-php artisan serve
- Access the application
-
-Visit:
-
-http://127.0.0.1:8000
