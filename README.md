@@ -1,3 +1,4 @@
+
 # SSD_CA2_BOOK_TRACKER
 
 ### BookTracker – Personal Reading Management Web Application
@@ -46,7 +47,7 @@ npm install
 cp .env.example .env
 ```
 ### 6. Update your constants inside .env
-```bash
+
 DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME and DB_PASSWORD
 Update these constants to make sure they're matching your credentials
 ```
@@ -64,4 +65,13 @@ You can check the migrations to see all the tables that will be created.
 ```bash
 php artisan migrate:fresh --seed
 ```
+### 10.Run the server
+```bash
+php artisan serve
+```
+visit:
+```bash
+http://127.0.0.1:8000
+```
+Make sure your MySQL database server is running at the same time (e.g. XAMPP, MAMP), otherwise the application will not be able to connect to the database.
 
