@@ -23,9 +23,45 @@ Instead of relying on memory or scattered notes, this platform provides a centra
 
 ## Installation
 
-1. **Clone the repo**
+### 1. Clone the repo
 ```bash
-git clone [https://github.com/mdnayemmolla077-hue/SSD_CA2_BOOK_TRACKER.git](https://github.com/mdnayemmolla077-hue/SSD_CA2_BOOK_TRACKER.git)
+git clone https://github.com/mdnayemmolla077-hue/SSD_CA2_BOOK_TRACKER.git
 
-2. Go to the project folder
+```
+### 2.Go to the project folder
+```bash
 cd SSD_CA2_BOOK_TRACKER
+```
+### 3.Install dependencies
+```bash
+composer install
+```
+### 4.Install npm
+```bash
+npm install
+```
+### 5.Create a copy of .env.example
+.env files are not committed to this repo for security purposes, but there's a .env.example file that you can use as a base.
+```bash
+cp .env.example .env
+```
+### 6. Update your constants inside .env
+```bash
+DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME and DB_PASSWORD
+Update these constants to make sure they're matching your credentials
+```
+### 7.Generate the encryption key if needed
+```bash
+php artisan key:generate
+```
+### 8.Create a new empty database
+```bash
+This project is using MySQL.
+Open your DBMS and create a database called ssd_ca2.
+You can check the migrations to see all the tables that will be created.
+```
+### 9.Migrate the database
+```bash
+php artisan migrate:fresh --seed
+```
+
