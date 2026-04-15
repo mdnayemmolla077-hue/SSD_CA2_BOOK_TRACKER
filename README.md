@@ -49,7 +49,7 @@ cp .env.example .env
 
 DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME and DB_PASSWORD  
 Update these constants to make sure they're matching your credentials
-```
+
 ### 7.Generate the encryption key if needed
 ```bash
 php artisan key:generate
