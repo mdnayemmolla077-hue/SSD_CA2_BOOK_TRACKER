@@ -1,4 +1,13 @@
 # SSD_CA2_BOOK_TRACKER
+<p align="center">
+</p>
+<p align="center">
+    <img src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel Logo"/> 
+    <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwindcss Logo"/> 
+    <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="Javascript Logo"/>
+    <img src="https://img.shields.io/badge/MySQL-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB Logo"/>
+</p>
+
 
 ### BookTracker – Personal Reading Management Web Application
 
